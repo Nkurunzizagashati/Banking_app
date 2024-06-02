@@ -1,7 +1,7 @@
 import React from "react";
 
 const TotalBalanceBox = ({
-  accounts,
+  accounts = [],
   totalBanks,
   totalCurrentBalance,
 }: TotalBalanceBoxProps) => {
